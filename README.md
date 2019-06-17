@@ -5,7 +5,7 @@
 ### ***Driving Safety Band***
  We trained a regression model to predict this safety band for multiple features based on the safe driving data (class is 0). In prediction, any values that exceed this safety band will trigger a warning that indicate possible of dangerous action. This can be implemented to Grab Apps by embedding video recording function. With this driving safety band, the algorithms will only select those scenes when abnormal behaviour detected. This can greatly reduce the load of the database and also protect the interest of both driver and passenger at the same time.
 
-![Alt text](image/safety band for speed.png?raw=true "Title")
+![Alt text](image/Safety band for Speed.png?raw=true "Title")
 
 ## Demo Video
 [![](http://img.youtube.com/vi/rCUhDAE3VtM/0.jpg)](http://www.youtube.com/watch?v=rCUhDAE3VtM "Demo video")
