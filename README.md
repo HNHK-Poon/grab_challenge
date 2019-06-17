@@ -2,7 +2,7 @@
 ![N|Solid](https://static.wixstatic.com/media/397bed_647eb21ff7ce4b3e990927d40781d7a7~mv2.png/v1/fill/w_490,h_302,al_c,usm_0.66_1.00_0.01/397bed_647eb21ff7ce4b3e990927d40781d7a7~mv2.png)
 
 ## Our solution
-### ***Driving Safety Band***
+### ***Driving Safety Band (More info in jupyter notebook)***
  We trained a regression model to predict this safety band for multiple features based on the safe driving data (class is 0). In prediction, any values that exceed this safety band will trigger a warning that indicate possible of dangerous action. This can be implemented to Grab Apps by embedding video recording function. With this driving safety band, the algorithms will only select those scenes when abnormal behaviour detected. This can greatly reduce the load of the database and also protect the interest of both driver and passenger at the same time.
 
 ![Alt text](image/Safety%20band%20for%20Speed.png?raw=true "Title")
