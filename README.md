@@ -55,3 +55,15 @@ The proposed idea has advantages as follow:
 - Can igonore the uncertainties (The way smartphone placed in car, Performance of the car, Concept of dangerous for passengers)
 - Fair for both drivers and passengers, avoid unnecessary argues (No blackbox operation, can trace back the dangerous moments)
 - No time restriction as trip come with various duration and deep learning model are mostly require fixed dimensions of inputs
+
+## Usage
+
+### Train
+```sh
+python train.py --file data/sampled_85.csv
+```
+
+### Predict
+```sh
+python predict.py --file samples
+```
