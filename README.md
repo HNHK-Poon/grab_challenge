@@ -56,14 +56,20 @@ The proposed idea has advantages as follow:
 - Fair for both drivers and passengers, avoid unnecessary argues (No blackbox operation, can trace back the dangerous moments)
 - No time restriction as trip come with various duration and deep learning model are mostly require fixed dimensions of inputs
 
-## Usage
+# Usage
 
 ### Train
+Set the PATH to csv folder
 ```sh
-python train.py --file data/sampled_85.csv
+python train.py --file PATH
 ```
 
 ### Predict
 ```sh
 python predict.py --file samples
 ```
+# Prerequisites
+- Keras: 2.1.4
+- TensorFlow: 1.4.0
+- sklearn: 0.19.1
+- Lightgbm: 2.2.3
