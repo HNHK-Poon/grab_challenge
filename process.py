@@ -122,10 +122,10 @@ def generate_data(df,feature,days):
 	label_dict, _ = read_label()
 	sampleID = get_sampled_id(df)
 
-	for ID in tqdm(sampleID[:100]):
+	for ID in tqdm(sampleID):
 		df_id = df[df.index==ID].reset_index(drop=True)
 
-		if(df_id.shape[0] > 0):
+		if(df_id.shape[0] > 666):
 			df_id = normalize(df_id,feature)
 
 			for day in days:
@@ -138,6 +138,7 @@ def generate_data(df,feature,days):
 				if label_dict[ID] == 0:
 					dtrain = dtrain.append(df_id, ignore_index=True)
 				else:
+
 					dtest = dtest.append(df_id, ignore_index=True)
 			except KeyError:
 				continue
